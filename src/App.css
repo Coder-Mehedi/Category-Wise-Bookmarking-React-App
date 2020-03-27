@@ -1,0 +1,13 @@
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	text-align: center;
+}
+.category {
+	flex-basis: 33%;
+	min-height: 60vh;
+	border: 1px dotted coral;
+}
