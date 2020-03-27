@@ -51,7 +51,13 @@ const Bookmark = ({ category }) => {
 				setOpen={setOpen}
 			/>
 			{bookmarkList[category.name].map(bookmark => (
-				<h2>{bookmark.name}</h2>
+				<div>
+					<h3>
+						<a href={bookmark.url} target="_blank">
+							{bookmark.name}
+						</a>
+					</h3>
+				</div>
 			))}
 		</div>
 	);
